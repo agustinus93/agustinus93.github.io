@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program Studi Agroteknologi - Universitas Halmahera</title>
+  <meta name="description"
+    content="Informasi lengkap mengenai Program Studi Agroteknologi di Universitas Halmahera, termasuk visi, misi, kurikulum, dan staf pengajar.">
+
+  <!-- Ganti 'logo.png' dengan path logo Anda yang sebenarnya -->
+  <link rel="icon" href="logo.png" type="image/png">
+
+  <!-- Google Fonts: Poppins & Source Serif Pro untuk artikel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============================ -->
+  <!--            HEADER            -->
+  <!-- ============================ -->
+  <header class="header">
+    <nav class="header__nav container">
+      <a href="index.html" class="header__logo">
+        <img src="LOGO UNIERA.png" alt="Logo Universitas Halmahera">
+      </a>
+      <div class="nav" id="main-menu">
+        <ul class="nav__list">
+          <!-- Kelas 'active' dihapus dari Beranda -->
+          <li class="nav__item"><a href="index.html" class="nav__link">Beranda</a></li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Tentang Universitas</a>
+            <ul class="dropdown__menu">
+              <li><a href="sejarah.html" class="dropdown__link">Sejarah Universitas</a></li>
+              <li><a href="visi.html" class="dropdown__link">Visi, Misi & Tujuan</a></li>
+              <li><a href="#" class="dropdown__link">Struktur Organisasi</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Admissions</a>
+            <ul class="dropdown__menu">
+              <li><a href="pmb.html" class="dropdown__link">Pendaftaran Mahasiswa Baru</a></li>
+              <li><a href="beasiswa.html" class="dropdown__link">Informasi Beasiswa</a></li>
+              <li><a href="#" class="dropdown__link">Biaya Pendidikan</a></li>
+            </ul>
+          </li>
+
+          <!-- [FIXED] Kelas 'active' dipindahkan ke Akademik -->
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link nav__link--active"
+              aria-current="page">Akademik</a>
+            <ul class="dropdown__menu">
+              <li><a href="sarjana.html" class="dropdown__link">Program Sarjana (S1)</a></li>
+              <li><a href="pascasarjna.html" class="dropdown__link">Pascasarjana (S2)</a></li>
+              <li><a href="kalender.html" class="dropdown__link">Kalender Akademik</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Penelitian & Publikasi</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Pusat Penelitian</a></li>
+              <li><a href="#" class="dropdown__link">Jurnal Ilmiah</a></li>
+              <li><a href="#" class="dropdown__link">Pengabdian Masyarakat</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Berita & Agenda</a>
+            <ul class="dropdown__menu">
+              <li><a href="berita.html" class="dropdown__link">Berita Kampus</a></li>
+              <li><a href="#" class="dropdown__link">Agenda Akademik</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Alumni</a>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Jejaring Alumni</a></li>
+              <li><a href="#" class="dropdown__link">Kisah Sukses</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--has-dropdown"><a href="#" class="nav__link">Kontak</a>
+            <ul class="dropdown__menu">
+              <li><a href="kontakkami.html" class="dropdown__link">Hubungi Kami</a></li>
+              <li><a href="#" class="dropdown__link">Lokasi & Peta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <button class="header__hamburger" id="menu-toggler" aria-label="Buka menu navigasi" aria-controls="main-menu"
+        aria-expanded="false">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================ -->
+    <!--     PAGE HEADER SECTION      -->
+    <!-- ============================ -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">Program Studi Agroteknologi</h1>
+        <p class="page-header__subtitle">Inovasi Pertanian untuk Kedaulatan Pangan Lokal</p>
+      </div>
+    </section>
+
+    <!-- ============================ -->
+    <!--   PRODI DETAIL SECTION       -->
+    <!-- ============================ -->
+    <section class="content-section">
+      <div class="container detail-layout">
+        <!-- Kolom Konten Utama -->
+        <div class="detail-layout__main">
+          <!-- Visi Misi Tujuan -->
+          <div class="content-block">
+            <h2 class="content-block__title">Visi</h2>
+            <p class="content-block__text">Menjadi Program Studi yang unggul dan bermutu dalam pengelolaan sumberdaya
+              pangan lokal berbasis pertanian.</p>
+          </div>
+          <div class="content-block">
+            <h2 class="content-block__title">Misi</h2>
+            <ul class="content-block__list">
+              <li>Menyelenggarakan pendidikan dengan sistem pembelajaran yang profesional dan mengikuti perkembangan
+                IPTEKS untuk memenuhi tuntutan stakeholder.</li>
+              <li>Menyelenggarakan dan mengembangkan penelitian sumberdaya hayati dengan pengelolaan sumberdaya pangan
+                lokal berbasis pada pertanian organik untuk pengembangan kewirausahaan di bidang Agroteknologi.</li>
+              <li>Menjalin kemitraan yang serasi dan kerja sama dalam bidang pengabdian masyarakat dengan Stakeholder
+                baik lokal, regional, dan nasional untuk meningkatkan kualitas dari Program Studi Agroteknologi.</li>
+            </ul>
+          </div>
+          <div class="content-block">
+            <h2 class="content-block__title">Tujuan</h2>
+            <ul class="content-block__list">
+              <li>Menjadikan salah satu Program Studi unggulan di Universitas Halmahera dalam penerapan IPTEKS dari
+                sumber daya pengelolaan pangan lokal berbasis pertanian organik.</li>
+              <li>Menghasilkan sarjana Agroteknologi yang memiliki kemampuan akademik yang profesional dan berjiwa
+                kewirausahaan.</li>
+              <li>Menciptakan peluang dan kondisi untuk dapat berperan sebagai agen perubahan di masyarakat.</li>
+              <li>Melakukan pengabdian masyarakat dibidang terapan ilmu Agroteknologi yang berdampak positif untuk
+                pemecahan masalah yang dihadapi masyarakat mitra.</li>
+              <li>Menciptakan tata kelola program studi yang efektif, efisien, dan inovatif dalam rangka menghasilkan
+                suasana akademik yang kondusif dan harmonis.</li>
+            </ul>
+          </div>
+          <!-- Kurikulum -->
+          <div class="content-block">
+            <h2 class="content-block__title">Kurikulum</h2>
+            <p class="content-block__text">Mata Kuliah jurusan Agroteknologi UNIERA diklasifikasikan dalam 3 kelompok:
+            </p>
+            <ul class="content-block__list">
+              <li><strong>Mata Kuliah Wajib:</strong> 117 SKS</li>
+              <li><strong>Mata Kuliah Wajib pada Prodi Lain (MBKM):</strong> 9 SKS</li>
+              <li><strong>Mata Kuliah Pilihan:</strong> minimal 34 SKS</li>
+            </ul>
+            <a href="#" class="button-primary button-primary--download">Download Kurikulum Lengkap (PDF)</a>
+          </div>
+          <!-- Daftar Dosen -->
+          <div class="content-block">
+            <h2 class="content-block__title">Staf Pengajar (Dosen)</h2>
+            <div class="lecturer-list">
+              <div class="lecturer-card">
+                <div class="lecturer-card__photo-wrapper"><img src="https://i.ibb.co/6P0DRwV/dosen-1.jpg"
+                    alt="Foto Deiby Elsa Gisisi"></div>
+                <div class="lecturer-card__info">
+                  <h3 class="lecturer-card__name">Deiby Elsa Gisisi, S.P., M.Si</h3>
+                  <ul class="lecturer-card__details">
+                    <li><strong>Pendidikan:</strong> S1 Universitas Halmahera, S2 Universitas Samratulangi</li>
+                    <li><strong>Jabatan Fungsional:</strong> Asisten Ahli</li>
+                    <li><strong>Bidang Kepakaran:</strong> Manajemen Sosial Ekonomi Pertanian</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lecturer-card">
+                <div class="lecturer-card__photo-wrapper"><img src="https://i.ibb.co/zZfT9Lg/dosen-2.jpg"
+                    alt="Foto Anang Mulyantana"></div>
+                <div class="lecturer-card__info">
+                  <h3 class="lecturer-card__name">Anang Mulyantana, S.P., M.Sc</h3>
+                  <ul class="lecturer-card__details">
+                    <li><strong>Pendidikan:</strong> S1 Universitas Kristen Satya Wacana, S2 Universitas Gadjah Mada
+                    </li>
+                    <li><strong>Jabatan Fungsional:</strong> Lektor</li>
+                    <li><strong>Bidang Kepakaran:</strong> Ilmu Tanah dan Hortikultura</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lecturer-card">
+                <div class="lecturer-card__photo-wrapper"><img src="https://i.ibb.co/r2v8Y3B/dosen-3.jpg"
+                    alt="Foto Sunarno"></div>
+                <div class="lecturer-card__info">
+                  <h3 class="lecturer-card__name">Sunarno, SP., M.Sc</h3>
+                  <ul class="lecturer-card__details">
+                    <li><strong>Pendidikan:</strong> S1 Universitas Tunas, S2 Universitas Gadjah Mada</li>
+                    <li><strong>Jabatan Fungsional:</strong> Lektor</li>
+                    <li><strong>Bidang Kepakaran:</strong> Hama dan Penyakit Tumbuhan</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lecturer-card">
+                <div class="lecturer-card__photo-wrapper"><img src="https://i.ibb.co/zZfT9Lg/dosen-2.jpg"
+                    alt="Foto Dr. Johanis Wairata"></div>
+                <div class="lecturer-card__info">
+                  <h3 class="lecturer-card__name">Dr. Johanis Wairata, S.Si., M.Sc</h3>
+                  <ul class="lecturer-card__details">
+                    <li><strong>Pendidikan:</strong> S1 Univ. Pattimura, S2 Univ. Gadjah Mada, S3 ITS</li>
+                    <li><strong>Jabatan Fungsional:</strong> Asisten Ahli</li>
+                    <li><strong>Bidang Kepakaran:</strong> Kimia Tanaman</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="lecturer-card">
+                <div class="lecturer-card__photo-wrapper"><img src="https://i.ibb.co/6P0DRwV/dosen-1.jpg"
+                    alt="Foto Cornelia Dolfina Maatoke"></div>
+                <div class="lecturer-card__info">
+                  <h3 class="lecturer-card__name">Cornelia Dolfina Maatoke, S.TP., M.Si</h3>
+                  <ul class="lecturer-card__details">
+                    <li><strong>Pendidikan:</strong> S1 Univ. Kristen Cipta Wacana, S2 IPB</li>
+                    <li><strong>Jabatan Fungsional:</strong> Asisten Ahli</li>
+                    <li><strong>Bidang Kepakaran:</strong> Teknologi dalam Ilmu Tanaman</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Informasi Prodi -->
+        <aside class="detail-layout__sidebar">
+          <div class="info-block">
+            <h3 class="info-block__title">Informasi Program Studi</h3>
+            <ul class="info-block__list">
+              <li><strong>Fakultas</strong><span>Ilmu Alam dan Teknologi Rekayasa</span></li>
+              <li><strong>Program Studi</strong><span>Agroteknologi</span></li>
+              <li><strong>Operasional</strong><span>2008</span></li>
+              <li><strong>Akreditasi</strong><span class="accreditation-tag accreditation-tag--excellent">Baik
+                  Sekali</span></li>
+              <li><strong>Gelar Lulusan</strong><span>S.P (Sarjana Pertanian)</span></li>
+              <li><strong>Alamat</strong><span>Kampus Uniera</span></li>
+              <li><strong>Telp</strong><span>-</span></li>
+              <li><strong>Email</strong><span>agroteknologi@uniera.ac.id</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ -->
+  <!--            FOOTER            -->
+  <!-- ============================ -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__about">
+        <a href="index.html" class="footer__logo">
+          <img src="LOGO UNIERA.png" alt="Logo Uniera">
+          UNIERA
+        </a>
+        <p>Universitas Halmahera</p>
+        <div class="footer__contact-info">
+          <span>Telepon: <a href="tel:+62123456789">+62 123 456 789</a></span>
+          <span>Email: <a href="mailto:info@uniera.ac.id">info@uniera.ac.id</a></span>
+        </div>
+      </div>
+      <div class="footer__links-group">
+        <h4 class="footer__title">Tentang Universitas</h4>
+        <ul>
+          <li><a href="#">Sejarah</a></li>
+          <li><a href="#">Visi & Misi</a></li>
+          <li><a href="#">Pimpinan</a></li>
+        </ul>
+      </div>
+      <div class="footer__links-group">
+        <h4 class="footer__title">Akademik</h4>
+        <ul>
+          <li><a href="#">Fakultas</a></li>
+          <li><a href="#">Kalender</a></li>
+          <li><a href="#">LMS</a></li>
+        </ul>
+      </div>
+      <div class="footer__links-group">
+        <h4 class="footer__title">Tautan Cepat</h4>
+        <ul>
+          <li><a href="#">Berita</a></li>
+          <li><a href="#">Agenda</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom-bar">
+      <div class="container">
+        <p>© 2024 Universitas Halmahera. Semua Hak Cipta Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript - file yang sama dengan index.html -->
+  <script src="script.js"></script>
+</body>
+
+</html>
