@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/onlnrkfg/public_html/webcode.uniera.ac.id
+    - /bin/cp -r ./* $DEPLOYPATH
